@@ -2,8 +2,8 @@
 #include <stdlib.h>
 #include <pthread.h>
 
-int total_number = 100; // p
-int thread_total = 4;   // n
+int total_number = 100; 
+int thread_total = 4;   
 
 void *task(void *arg) {
     long index = (long)arg;
